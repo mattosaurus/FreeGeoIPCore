@@ -1,7 +1,7 @@
 {
   "title": "FreeGeoIPCore",
   "description": "A .NET Core client for retrieving IP address location data from freegeoip.net.",
-  "version": "1.0.0-*",
+  "version": "1.0.1-*",
 
   "dependencies": {
     "NETStandard.Library": "1.6.1",
