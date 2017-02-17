@@ -12,7 +12,7 @@ namespace FreeGeoIPCore
     {
         public async Task<Location> GetLocation(string ipAddress)
         {
-            string url = "https://freegeoip.net/json/?q=" + ipAddress;
+            string url = "https://freegeoip.net/json/" + ipAddress;
 
             using (HttpClient client = new HttpClient())
             {
